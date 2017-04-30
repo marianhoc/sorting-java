@@ -5,8 +5,8 @@ public class Merge {
 
 
     private static void merge(Comparable[]a, Comparable[] aux, int lo, int mid, int hi){
-        //assert isSorted(a, lo, mid);      //precondition a[lo..mid] sorted
-        //assert isSorted(a, mid+1, hi);    //precondition a[mid+1..hi] sorted
+        //assert Tools.isSorted(a, lo, mid);      //precondition a[lo..mid] sorted
+        //assert Tools.isSorted(a, mid+1, hi);    //precondition a[mid+1..hi] sorted
 
         for (int k = lo; k<=hi; k++){   //  make a copy of a into aux
             aux[k] = a[k];
